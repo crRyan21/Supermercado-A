@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#navegacao{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(9, 117, 103);
+    padding-bottom: 50px;
+}
+
+#container{
+    background-color: rgb(228, 212, 140);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2em;    
+    margin-left: 10px;
+}
+h1{
+    font-weight: bold;
+    color: #fff;
+    font-size: 18pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+}
+
+nav div a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav div:nth-child(1){
+    background-color: brown;
+}
+nav div:nth-child(2){
+    background-color: rgb(0, 119, 255);
+}
+nav div:nth-child(3){
+    background-color: rgb(202, 153, 80);
+}
+nav div:nth-child(4){
+    background-color: rgb(141, 38, 201);
+}
+nav div:nth-child(5){
+    background-color: rgb(255, 45, 17);
+}
+nav div:nth-child(6){
+    background-color: rgb(224, 26, 135);
+}
+nav div:nth-child(7){
+    background-color: rgb(59, 224, 26);
+}
+nav div:nth-child(8){
+    background-color: rgb(6, 245, 173);
+}
+nav div:nth-child(8){
+    background-color: rgb(6, 245, 173);
+}
+nav div:nth-child(9){
+    background-color: rgb(248, 132, 0);
+}
+
+nav div:nth-child(10){
+    background-color: rgb(46, 46, 46);
+}
+nav div:nth-child(11){
+    background-color: rgb(12, 102, 1);
+}
+
+ h3{
+    text-align: center;
+    font-size: 18pt;
+    padding-top: 35px;
+    color: #d86b39;
+    text-shadow: 2px 2px  #5e2409;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.itens{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+figure{
+    box-shadow: 0 0 20px 2px rgb(145, 83, 3);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 15px 15px 0;
+    border-radius: 10px;
+}
+.itens img{
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+#Bebidas img, #Temperos img{
+    width: 80px;
+}
+
+figure p{
+    text-align: center;
+    padding: 15px 0;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.contato p{
+    color: #d86b39;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.contato input{
+    margin-bottom: 15px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.contato input::placeholder{
+   padding-left: 10px;
+}
+
+.contato button{
+    border: none;
+    font-size: 18pt;
+    padding: 8px;
+    background-color: rgb(9, 117, 103);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#d86b39;
+}
+
+footer div:nth-child(1){
+    padding-top: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div:nth-child(2){
+    margin-top: 5px;
+    font-size: 20pt;
+}
+
+footer div:nth-child(2) i{
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+}
+
+
+
